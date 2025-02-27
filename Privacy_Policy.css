@@ -7,6 +7,7 @@
 }
 body {
     background-color: #24252a;
+    font-family: "Montserrat", sans-serif;
 }
 li, a, button {
     font-family: "Montserrat", sans-serif;
@@ -52,7 +53,6 @@ nav{
 }
 .contact {
     order: 2;
-
 }
 .contact button {
     padding: 9px 25px;
@@ -65,82 +65,22 @@ nav{
 .contact button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
-.background-scroll {
-    margin-top: 76.909px;
-    width: 100%;
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-    background-image: url(https://wallpapers.com/images/hd/photographer-1920-x-1080-background-5efm7uj4hwui0fe1.jpg);
-    background-attachment: fixed;
-    color: white;
-    display: flex;
-}
-.background-scroll p {
-    font-size: 36px;
-    padding: 50px 20px;
-    font-family: "Montserrat", sans-serif;
-}
-.services {
-    text-align: center;
-    padding: 50px 20px;
-    color: #edf0f1;
-    font-family: "Montserrat", sans-serif;
-}
-
-h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.services-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.service-box {
-    background: #222;
+.container {
+    max-width: 800px;
+    margin: 160px auto 60px;
     padding: 20px;
+    background-color: #1e1e1e;
     border-radius: 10px;
-    text-align: center;
-    transition: transform 0.3s ease;
+   
 }
 
-.service-box:hover {
-    transform: scale(1.05);
-}
-
-.service-box img {
-    width: 50px;
-    margin-bottom: 10px;
-}
-
-h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+h1, h2 {
+    color: #edf0f1;
 }
 
 p {
-    font-size: 1em;
-}
-.photo-grid {
-    display: grid;
-    gap: 2rem;
-    margin: 50px 60px 50px 60px;
-    grid-template-columns: repeat(auto-fit, minmax(240px , 1fr));
-    grid-auto-rows: 240px;
-}
-.card {
-    grid-column: span 2 /auto;
-    grid-row: span 2/auto;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-.card:hover {
-    transform: scale(0.9);
-    
+    line-height: 1.6;
+    color: #edf0f1b4;
 }
 footer{
     background-color: #121315;

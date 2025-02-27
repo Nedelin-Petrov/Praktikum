@@ -103,6 +103,11 @@ nav{
 .contact-form button:hover {
     background: #555;
 }
+.container h1 a {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
 .container h1,h2 {
     color: #edf0f1;
 }
